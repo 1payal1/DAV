@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(131, 22, 22);
+    height: 150px;
+    width: 100%;
+}
+
+
+#logo{
+    background-color:white;
+    height: 150px;
+    width: 8%;
+    float: left;
+}
+#logo img{
+    margin-top: 10px;
+} 
+.school{
+        background-color: rgb(239, 236, 229);
+        height: 100%;
+        width: 82%;
+        float: left;
+}
+.school h1{
+    font-size: 60px;
+    padding-top: 35px;
+}
+#Menue{
+    background-color:  rgb(16, 16, 16);
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+#Menue ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Menue ul li{
+    float: left;
+}
+
+#Menue ul li a{
+    line-height: 10px;
+    transition: 0.6s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+
+}
+#Menue ul li a:hover{
+    background: white;
+    color: black;
+}
+.p1{
+    background-color: azure;
+    height: 150px;
+    width: 10%;
+    float: right;
+}
+
+#p1 img{
+    margin-top: 10px;
+}
+.heading{
+    background-color: rgb(59, 132, 96);
+    height: 150px;
+    width: 200%;
+}
+.heading h1{
+    height: 40px;
+    width: 200%;
+    color: rgb(222, 235, 247);
+    font-size: 80px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 430px;
+    padding-bottom: 10px;
+}
+#border{
+    height: 30px;
+    background-color: white;
+    width: 100%;
+}
+.banner1{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(62, 66, 66);
+    
+}
+.banner1 img{
+    height:400px ;
+    width:100% ;
+    padding-left: 25px;
+    padding-right: 25px;  
+    background-color: black;
+    float: center;
+}
+.content{
+    background-color: rgb(199, 212, 204);
+    height: 250px;
+    width: 100%;
+    float: inline-end;
+    padding-left: 20px;
+}
+.content p{
+    color: rgb(2, 2, 26);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+     
+}
+
+.Staff{
+    background-color: rgb(242, 247, 248);
+    height: 100px;
+    width:100%;
+    padding-left: 170px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+.Staff h1{
+    height: 50px;
+    width: 100%;
+    color: rgb(52, 84, 114);
+    font-size: 60px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 320px;
+}
+.list{
+    background-color: rgb(246, 240, 240);
+    height: 1000px;
+    width:100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.list table{
+    height: 1000px;
+    width:80%;
+    accent-color: rgb(85, 81, 81);
+    padding-left: 15px;
+    padding-top: 40px;
+}
+.list table tr{
+    height: 15px;
+    width: 20%;
+    
+}
+.list table tr th{
+    height: 15px;
+    width: 20%;
+    background-color: rgb(97, 140, 125);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list table tr td{
+    height: 16px;
+    width: 20%;
+    background-color: rgb(221, 238, 232);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Department{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(242, 247, 248));
+    display: flex;
+   
+}
+
+.list1{
+    background-color:rgb(246, 240, 240);
+    height: 500px;
+    width:25%;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.list1 h1{
+    height: 30px;
+    width: 80%;
+    color: rgb(52, 84, 114);
+    font-size: 20px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 110px;
+   
+}
+.list1 table{
+    height: 400px;
+    width:120%;
+    accent-color: rgb(85, 81, 81);
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.list1 table tr{
+    height: 15px;
+    width: 30%;
+}
+.list1 table tr th{
+    height: 15px;
+    width: 25%;
+    background-color: rgb(97, 140, 125);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list1 table tr td{
+    height: 16px;
+    width: 20%;
+    background-color: rgb(221, 238, 232);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.list2{
+    background-color:rgb(246, 240, 240);
+    height: 500px;
+    width:25%;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 20px;
+    
+}
+.list2 h1{
+    height: 30px;
+    width: 80%;
+    color: rgb(52, 84, 114);
+    font-size: 20px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 135px;
+    
+}
+.list2 table{
+    height: 400px;
+    width:120%;
+    accent-color: rgb(85, 81, 81);
+    padding-left: 25px;
+    padding-top: 7px;
+  
+}
+.list2 table tr{
+    height: 15px;
+    width: 30%;
+}
+.list2 table tr th{
+    height: 15px;
+    width: 25%;
+    background-color: rgb(97, 140, 125);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list2 table tr td{
+    height: 16px;
+    width: 20%;
+    background-color: rgb(221, 238, 232);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list3{
+    background-color:rgb(246, 240, 240);
+    height: 500px;
+    width:25%;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 20px;
+    
+}
+.list3 h1{
+    height: 30px;
+    width: 80%;
+    color: rgb(52, 84, 114);
+    font-size: 20px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 135px;
+    
+}
+.list3 table{
+    height: 400px;
+    width:120%;
+    accent-color: rgb(85, 81, 81);
+    padding-left: 25px;
+    padding-top: 7px;
+  
+}
+.list3 table tr{
+    height: 15px;
+    width: 30%;
+}
+.list3 table tr th{
+    height: 15px;
+    width: 25%;
+    background-color: rgb(97, 140, 125);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list3 table tr td{
+    height: 16px;
+    width: 20%;
+    background-color: rgb(221, 238, 232);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Department2{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(242, 247, 248);
+    display: flex;
+   
+}
+
+.list4{
+    background-color:rgb(246, 240, 240);
+    height: 500px;
+    width:55%;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.list4 h1{
+    height: 30px;
+    width: 80%;
+    color: rgb(52, 84, 114);
+    font-size: 20px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 280px;
+   
+}
+.list4 table{
+    height: 400px;
+    width:95%;
+    accent-color: rgb(85, 81, 81);
+    padding-left: 150px;
+    padding-top: 7px;
+    padding-right: 0px;
+}
+.list4 table tr{
+    height: 15px;
+    width: 30%;
+}
+.list4 table tr th{
+    height: 15px;
+    width: 25%;
+    background-color: rgb(97, 140, 125);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list4 table tr td{
+    height: 16px;
+    width: 20%;
+    background-color: rgb(221, 238, 232);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list5{
+    background-color:rgb(246, 240, 240);
+    height: 500px;
+    width:55%;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.list5 h1{
+    height: 30px;
+    width: 80%;
+    color: rgb(52, 84, 114);
+    font-size: 20px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 180px;
+   
+}
+.list5 table{
+    height: 400px;
+    width:90%;
+    accent-color: rgb(85, 81, 81);
+    padding-left: 120px;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+.list5 table tr{
+    height: 15px;
+    width: 30%;
+}
+.list5 table tr th{
+    height: 15px;
+    width: 25%;
+    background-color: rgb(97, 140, 125);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.list5 table tr td{
+    height: 16px;
+    width: 20%;
+    background-color: rgb(221, 238, 232);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(175, 247, 247);
+    float: left;
+}
+.links{
+    height: 350px;
+    width: 33%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.links h1{
+    padding-left: 10px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
+.socialmedia{
+    height: 350px;
+    width: 33%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.socialmedia h1{
+    padding-left: 10px;
+    color: rgb(245, 241, 241);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.socialmedia a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
+.madeby{
+    height:350px;
+    width: 34%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.madeby h1{
+    padding-left: 10px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.madeby p{
+   
+    color:white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}

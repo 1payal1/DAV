@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(131, 22, 22);
+    height: 150px;
+    width: 100%;
+}
+
+
+#logo{
+    background-color:white;
+    height: 150px;
+    width: 8%;
+    float: left;
+}
+#logo img{
+    margin-top: 10px;
+} 
+.school{
+        background-color: rgb(239, 236, 229);
+        height: 100%;
+        width: 82%;
+        float: left;
+}
+.school h1{
+    font-size: 60px;
+    padding-top: 35px;
+}
+#Menue{
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+#Menue ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Menue ul li{
+    float: left;
+}
+
+#Menue ul li a{
+    line-height: 10px;
+    transition: 0.6s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+
+}
+#Menue ul li a:hover{
+    background: white;
+    color: black;
+}
+.p1{
+    background-color: azure;
+    height: 150px;
+    width: 10%;
+    float: right;
+}
+
+#p1 img{
+   
+margin-top: 40px;
+}
+.Heading{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(198, 163, 93);
+   
+}
+.Heading h1{
+    height: 50px;
+    width: 50%;
+    font-size: 50px;
+    color: rgb(44, 14, 38);
+    padding-left: 25px;
+    padding-top: 60px;
+}
+.campous{
+    height: 400px;
+    width: 100%;
+    background-color: hwb(180 95% 5%);
+ 
+}
+.campous h1{
+    height: 30px;
+    width: 50%;
+    color: rgb(27, 16, 51);
+    padding-left:70px ;
+    padding-top:20px ;
+}
+.campous p{
+    font-size: 20px;
+    height: 20px;
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 27px;
+    color: rgb(39, 28, 63);
+}
+.campous img{
+    height: 150px;
+    width: 18%;
+    padding-top: 90px;
+    padding-left: 120px;
+
+}
+.lib{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(244, 242, 242);
+}
+.library{
+    height: 400px;
+    width: 100%;
+    background-color: hwb(205 92% 4%);
+    
+   
+}  
+.library h1{
+    height: 30px;
+    width: 50%;
+    color: rgb(24, 28, 61);
+    padding-left:70px ;
+    padding-top:20px ;
+}
+.library p{
+    font-size: 20px;
+    height: 20px;
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 27px;
+    color: rgb(23, 20, 53);
+}
+.library img{
+    height: 150px;
+    width: 18%;
+    padding-top: 90px;
+    padding-left: 120px;
+
+}
+.scilab{
+    height: 400px;
+    width: 100%;
+    background-color: hwb(205 92% 4%);
+    
+   
+}  
+.lib2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(244, 242, 242);
+}
+.scilab h1{
+    height: 30px;
+    width: 50%;
+    color: rgb(24, 28, 61);
+    padding-left:70px ;
+    padding-top:20px ;
+}
+.scilab p{
+    font-size: 20px;
+    height: 20px;
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 27px;
+    color: rgb(23, 20, 53);
+}
+.scilab img{
+    height: 150px;
+    width: 18%;
+    padding-top: 90px;
+    padding-left: 120px;
+}
+.lib3{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(244, 242, 242);
+}
+.complab{
+    height: 400px;
+    width: 100%;
+    background-color: hwb(205 92% 4%);
+    
+   
+}  
+.complab h1{
+    height: 30px;
+    width: 50%;
+    color: rgb(24, 28, 61);
+    padding-left:70px ;
+    padding-top:20px ;
+}
+.complab p{
+    font-size: 20px;
+    height: 20px;
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 27px;
+    color: rgb(23, 20, 53);
+}
+.complab img{
+    height: 150px;
+    width: 18%;
+    padding-top: 90px;
+    padding-left: 120px;
+
+}
+.lib4{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(244, 242, 242);
+}
+.hall{
+    height: 400px;
+    width: 100%;
+    background-color: hwb(205 92% 4%);
+    
+   
+}  
+.hall h1{
+    height: 30px;
+    width: 50%;
+    color: rgb(24, 28, 61);
+    padding-left:70px ;
+    padding-top:20px ;
+}
+.hall p{
+    font-size: 20px;
+    height: 20px;
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 27px;
+    color: rgb(23, 20, 53);
+}
+.hall img{
+    height: 150px;
+    width: 18%;
+    padding-top: 90px;
+    padding-left: 120px;
+
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(175, 247, 247);
+    float: left;
+}
+.links{
+    height: 400px;
+    width: 33%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.links h1{
+    padding-left: 10px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
+.socialmedia{
+    height: 400px;
+    width: 33%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.socialmedia h1{
+    padding-left: 10px;
+    color: rgb(245, 241, 241);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.socialmedia a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.madeby{
+    height: 400px;
+    width: 34%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.madeby h1{
+    padding-left: 10px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.madeby p{
+   
+    color: rgb(253, 248, 248);
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}

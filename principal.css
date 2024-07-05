@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(153, 56, 27);
+    height: 150px;
+    width: 100%;
+}
+
+
+#logo{
+    background-color:white;
+    height: 150px;
+    width: 8%;
+    float: left;
+}
+#logo img{
+    margin-top: 10px;
+} 
+.school{
+        background-color: rgb(224, 142, 142);
+        height: 100%;
+        width: 82%;
+        float: left;
+}
+.school h1{
+    font-size: 60px;
+    padding-top: 35px;
+}
+#Menue{
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+#Menue ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Menue ul li{
+    float: left;
+}
+
+#Menue ul li a{
+    line-height: 10px;
+    transition: 0.6s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+
+}
+#Menue ul li a:hover{
+    background: white;
+    color: black;
+}
+.p1{
+    background-color: azure;
+    height: 150px;
+    width: 10%;
+    float: right;
+}
+
+.p1 img{
+    height:150px;
+}
+.Main{
+    height: 300px;
+    background-color: rgb(232, 225, 225);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.quote{
+    height: 200px;
+    background-color: rgb(229, 190, 190);
+    width: 90%;
+    margin: 45px 15px 25px 35px;
+    padding-left: 50px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.quote h1{
+    height: 25px;
+    width: 80%;
+    color: rgb(59, 2, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 45px;
+    font-size: 40px;
+    padding-left: 15px;
+    text-shadow: 3px 3px 3px rgb(230, 230, 179);
+}
+.quote p{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    height:200px ;
+    width:50% ;
+    padding-left: 15px;
+    padding-top: 45px;
+}
+.Main2{
+    height: 900px;
+    background-color: rgb(232, 225, 225);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    height: 800px;
+    background-color: rgb(167, 202, 204);
+    width: 43%;
+    margin: 0px 15px 25px 35px;
+    padding-left: 50px;
+}
+.content p{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    height:200px ;
+    width:90% ;
+    padding-left: 15px;
+    padding-top: 45px;
+}
+.content2{
+    height: 800px;
+    background-color: rgb(167, 202, 204);
+    width: 43%;
+    margin: 0px 15px 25px 35px;
+    padding-left: 50px;
+}
+.content2 p{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    height:200px ;
+    width:90% ;
+    padding-left: 15px;
+    padding-top: 45px;
+}
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(175, 247, 247);
+    float: left;
+}
+.links{
+    height: 350px;
+    width: 33%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.links h1{
+    padding-left: 10px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
+.socialmedia{
+    height: 350px;
+    width: 33%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.socialmedia h1{
+    padding-left: 10px;
+    color: rgb(245, 241, 241);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.socialmedia a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.madeby{
+    height: 350px;
+    width: 34%;
+    background-color: rgb(34, 44, 44);
+    float: left;
+}
+.madeby h1{
+    padding-left: 10px;
+    color: rgb(6, 6, 6);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.madeby p{
+   
+    color: rgb(253, 248, 248);
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
